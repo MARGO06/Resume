@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #e5ebe9;
+  font-size: 10px;
+  font-family: Inter;
+}
+
+.head,
+.email,
+.information,
+.main__information,
+.contacts {
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.information__head,
+.contacts__mail,
+div > a {
+  font-size: 1.6rem;
+}
+
+.head {
+  padding-top: 20px;
+}
+
+.head__photo,
+.main__head,
+.project_img,
+.main,
+.aside,
+.main__education {
+  display: block;
+}
+
+.main {
+  padding-bottom: 20px;
+}
+
+.head__photo {
+  margin: 50px 0 0 30px;
+  width: 90%;
+  object-fit: contain;
+}
+
+.main__head {
+  order: 1;
+  padding-left: 20px;
+  margin: 50px 0 35px 0;
+  width: 100%;
+  border-bottom: solid 1px #920606;
+}
+
+.information__personal {
+  width: 30%;
+}
+
+.information {
+  width: 70%;
+}
+
+.head__profession,
+.information__head,
+.main__education,
+.skills {
+  margin-top: 20px;
+}
+
+.information__head {
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.information {
+  flex-direction: column-reverse;
+}
+
+.aside {
+  margin-top: 20px;
+}
+.main {
+  padding: 20px 0 0 150px;
+}
+
+p,
+.list,
+a,
+li {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.list,
+.list__item,
+.contacts__mail,
+.contacts__img,
+ul {
+  margin-top: 10px;
+}
+
+.contacts {
+  flex-direction: column;
+}
+
+.head__img {
+  width: 90%;
+}
+
+.contacts,
+.skills {
+  padding-left: 50px;
+}
+
+.contacts__img {
+  height: 24px;
+}
+
+.contacts__mail {
+  margin-left: 5px;
+}
+
+a {
+  color: #d50f68;
+  text-decoration: none;
+}
+
+h1,
+h2,
+a:hover {
+  color: #920606;
+}
+
+.project_link {
+  display: inline-block;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.project_link:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition-duration: 2s;
+}
+
+.project_img {
+  width: 100%;
+  object-fit: cover;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+li:first-child {
+  margin-top: 10px;
+}
